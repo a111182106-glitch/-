@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&family=Noto+Sans+TC:wght@400;500;700;900&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --color-primary: #10b981;
+  --color-primary-hover: #059669;
+  --color-dark-surface: #1e293b;
+  --font-sans: "Inter", "Noto Sans TC", sans-serif;
+  --font-display: "Space Grotesk", "Noto Sans TC", sans-serif;
+}
+
+body {
+  @apply bg-slate-950 text-slate-50 antialiased selection:bg-primary/30;
+}
